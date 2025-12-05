@@ -8,7 +8,7 @@ fn main() {
     //     .unwrap_or(1);
 
     let day = 2;
-    let input = read_input(1);
+    let input = read_input(2);
     let input2 = input.to_string();
     match day {
         1 => {
