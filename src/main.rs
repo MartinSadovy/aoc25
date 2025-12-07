@@ -7,7 +7,7 @@ fn main() {
     //     .and_then(|s| s.parse::<u8>().ok())
     //     .unwrap_or(1);
 
-    let day = 6;
+    let day = 7;
     let input = read_input(day);
     let input2 = input.to_string();
     match day {
@@ -34,6 +34,10 @@ fn main() {
         6 => {
             println!("Day 6 Part 1: {}", day06::part1(input));
             println!("Day 6 Part 2: {}", day06::part2(input2));
+        }
+        7 => {
+            println!("Day 7 Part 1: {}", day07::part1(input));
+            println!("Day 7 Part 2: {}", day07::part2(input2));
         }
         _ => println!("Day {} not implemented yet", day),
     }
